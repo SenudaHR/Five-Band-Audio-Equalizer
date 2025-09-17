@@ -1,1 +1,1 @@
-# Five-Band-Audio-Equalizer-
+# Five-Band-Audio-Equalizer
