@@ -29,7 +29,6 @@ This project implements a **5-band analog audio equalizer** using operational am
 
 ---
 
----
 
 ## ⚙️ Implementation Details
 - **Band Separation**: Achieved using band-pass filter circuits designed with Op-Amps.  
