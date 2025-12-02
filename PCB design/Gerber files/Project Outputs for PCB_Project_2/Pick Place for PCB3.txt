@@ -1,0 +1,58 @@
+Altium Designer Pick and Place Locations
+D:\University\Semester 3\EN2091\PCB_Project\PCB_Project_2\Project Outputs for PCB_Project_2\Pick Place for PCB3.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       27/11/25
+Time:       15:22
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator Comment              Layer    Footprint                 Center-X(mil) Center-Y(mil) Rotation Description                                                                                                       
+VR3        3852A-282-103AL      TopLayer BOUR-3852A-282-103AL-3_V  3865.000      1375.000      0        "Diameter Panel Control, 10 KOhm, +/- 10%, 2 W, -1 to 125 degC, 3-Pin THD, RoHS, Bulk"                            
+VR2        3852A-282-103AL      TopLayer BOUR-3852A-282-103AL-3_V  2735.000      1375.000      0        "Diameter Panel Control, 10 KOhm, +/- 10%, 2 W, -1 to 125 degC, 3-Pin THD, RoHS, Bulk"                            
+VR1        3852A-282-103AL      TopLayer BOUR-3852A-282-103AL-3_V  1600.000      1380.000      0        "Diameter Panel Control, 10 KOhm, +/- 10%, 2 W, -1 to 125 degC, 3-Pin THD, RoHS, Bulk"                            
+U5         NE5532P              TopLayer P0008A                    4600.000      1585.000      0        "Dual Low-Noise High-Speed Audio Operational Amplifier, 10 to 30 V, 0 to 70 degC, 8-pin DIP (P8), Pb-Free (RoHS)" 
+U4         NE5532P              TopLayer P0008A                    2420.000      1690.000      270      "Dual Low-Noise High-Speed Audio Operational Amplifier, 10 to 30 V, 0 to 70 degC, 8-pin DIP (P8), Pb-Free (RoHS)" 
+U3         NE5532PE4            TopLayer TI-P8                     3825.000      3165.000      0        "Dual Low-Noise High-Speed Audio Operational Amplifier, 10 to 30 V, 0 to 70 degC, 8-pin DIP (P8), Pb-Free (RoHS)" 
+U2         NE5532PE4            TopLayer TI-P8                     2785.000      3240.000      0        "Dual Low-Noise High-Speed Audio Operational Amplifier, 10 to 30 V, 0 to 70 degC, 8-pin DIP (P8), Pb-Free (RoHS)" 
+U1         NE5532P              TopLayer P0008A                    1565.000      3245.000      0        "Dual Low-Noise High-Speed Audio Operational Amplifier, 10 to 30 V, 0 to 70 degC, 8-pin DIP (P8), Pb-Free (RoHS)" 
+PO         HMTSW-104-23-F-S-237 TopLayer SMTC-HMTSW-104-23-X-S-237 4315.000      4285.000      0        "Modified .025" SQ Post Header, Through-hole, Vertical, -55 to 125 degC, 2.54 mm Pitch, 4-Pin, Male, RoHS"        
+PI         B3P-VH(LF)(SN)       TopLayer JST-B3P-VH(LF)(SN)-3_V    3285.000      4275.000      180      "Male Header, Pitch 3.96 mm, 1 x 3 Position, Height 10.9 mm, Tail Length 3.7 mm, -25 to 85 degC, RoHS, Bulk"      
+IN         1803277              TopLayer PHOE-1803277_V            2590.000      4180.000      180      "Male Header, Pitch 3.81 mm, 1 x 2 Position, Height 7.25 mm, Tail Length 3.4 mm, RoHS, Bulk"                      
+G3         MFR-25FBF52-2K21     TopLayer RESA60-630X240            3975.000      1655.000      90       "Axial Resistor, 2.21 KOhm, +/- 1%, 0.25 W, -55 to 155 degC, 2-Pin THD, RoHS, Bulk"                               
+G2         MFR-25FBF52-2K21     TopLayer RESA60-630X240            3000.000      1760.000      90       "Axial Resistor, 2.21 KOhm, +/- 1%, 0.25 W, -55 to 155 degC, 2-Pin THD, RoHS, Bulk"                               
+G1         MFR-25FBF52-2K21     TopLayer RESA60-630X240            1975.000      1770.000      90       "Axial Resistor, 2.21 KOhm, +/- 1%, 0.25 W, -55 to 155 degC, 2-Pin THD, RoHS, Bulk"                               
+F1-R2      MFR-25FBF52-2K21     TopLayer RESA60-630X240            2040.000      3255.000      180      "Axial Resistor, 2.21 KOhm, +/- 1%, 0.25 W, -55 to 155 degC, 2-Pin THD, RoHS, Bulk"                               
+F3-RG      MFR-25FBF52-2K21     TopLayer RESA60-630X240            4265.000      2045.000      180      "Axial Resistor, 2.21 KOhm, +/- 1%, 0.25 W, -55 to 155 degC, 2-Pin THD, RoHS, Bulk"                               
+F3-R3      MFR-25FBF5210K       TopLayer RESA60-630X240            3545.000      2520.000      90       "Axial Resistor, 10 KOhm, +/- 1%, 0.25 W, -55 to 155 degC, 2-Pin THD, RoHS, Bulk"                                 
+F3-R3*     MFR-25FBF5210K       TopLayer RESA60-630X240            3775.000      2530.000      90       "Axial Resistor, 10 KOhm, +/- 1%, 0.25 W, -55 to 155 degC, 2-Pin THD, RoHS, Bulk"                                 
+F3-R2      MFR-25FBF5210K       TopLayer RESA60-630X240            3905.000      3650.000      90       "Axial Resistor, 10 KOhm, +/- 1%, 0.25 W, -55 to 155 degC, 2-Pin THD, RoHS, Bulk"                                 
+F3-R2*     MFR-25FBF5210K       TopLayer RESA60-630X240            3970.000      2665.000      90       "Axial Resistor, 10 KOhm, +/- 1%, 0.25 W, -55 to 155 degC, 2-Pin THD, RoHS, Bulk"                                 
+F3-R1      MFR-25FBF52-2K21     TopLayer RESA60-630X240            3495.000      3170.000      270      "Axial Resistor, 2.21 KOhm, +/- 1%, 0.25 W, -55 to 155 degC, 2-Pin THD, RoHS, Bulk"                               
+F3-R1*     MFR-25FBF52-2K21     TopLayer RESA60-630X240            3805.000      2210.000      180      "Axial Resistor, 2.21 KOhm, +/- 1%, 0.25 W, -55 to 155 degC, 2-Pin THD, RoHS, Bulk"                               
+F3-C2      VY2102M29Y5US6TV7    TopLayer FP-VY2102M29Y5US6TV7-MFG  3600.000      3760.000      0        "VY2102M29Y5US6TV7 Cap Ceramic Suppression X1/Y2 0.001uF 440VAC/300VAC Y5U 20% (7.5 X 5mm) Radial 7.5mm 125C T/R" 
+F3-C2*     VY2102M29Y5US6TV7    TopLayer FP-VY2102M29Y5US6TV7-MFG  4250.000      3190.000      90       "VY2102M29Y5US6TV7 Cap Ceramic Suppression X1/Y2 0.001uF 440VAC/300VAC Y5U 20% (7.5 X 5mm) Radial 7.5mm 125C T/R" 
+F3-C1      VY2102M29Y5US6TV7    TopLayer FP-VY2102M29Y5US6TV7-MFG  3590.000      1965.000      0        "VY2102M29Y5US6TV7 Cap Ceramic Suppression X1/Y2 0.001uF 440VAC/300VAC Y5U 20% (7.5 X 5mm) Radial 7.5mm 125C T/R" 
+F3-C1*     VY2102M29Y5US6TV7    TopLayer FP-VY2102M29Y5US6TV7-MFG  4215.000      2435.000      270      "VY2102M29Y5US6TV7 Cap Ceramic Suppression X1/Y2 0.001uF 440VAC/300VAC Y5U 20% (7.5 X 5mm) Radial 7.5mm 125C T/R" 
+F2-RG      MFR-25FBF52-2K21     TopLayer RESA60-630X240            2870.000      2695.000      270      "Axial Resistor, 2.21 KOhm, +/- 1%, 0.25 W, -55 to 155 degC, 2-Pin THD, RoHS, Bulk"                               
+F2-R3      MFR-25FBF5210K       TopLayer RESA60-630X240            2340.000      2462.835      90       "Axial Resistor, 10 KOhm, +/- 1%, 0.25 W, -55 to 155 degC, 2-Pin THD, RoHS, Bulk"                                 
+F2-R3*     MFR-25FBF5210K       TopLayer RESA60-630X240            2525.000      2470.000      90       "Axial Resistor, 10 KOhm, +/- 1%, 0.25 W, -55 to 155 degC, 2-Pin THD, RoHS, Bulk"                                 
+F2-R2      MFR-25FBF5210K       TopLayer RESA60-630X240            3130.000      3675.000      90       "Axial Resistor, 10 KOhm, +/- 1%, 0.25 W, -55 to 155 degC, 2-Pin THD, RoHS, Bulk"                                 
+F2-R2*     MFR-25FBF5210K       TopLayer RESA60-630X240            3060.000      2660.000      90       "Axial Resistor, 10 KOhm, +/- 1%, 0.25 W, -55 to 155 degC, 2-Pin THD, RoHS, Bulk"                                 
+F2-R1      MFR-25FBF52-2K21     TopLayer RESA60-630X240            2435.000      3185.000      270      "Axial Resistor, 2.21 KOhm, +/- 1%, 0.25 W, -55 to 155 degC, 2-Pin THD, RoHS, Bulk"                               
+F2-R1*     MFR-25FBF52-2K21     TopLayer RESA60-630X240            2890.000      2270.000      180      "Axial Resistor, 2.21 KOhm, +/- 1%, 0.25 W, -55 to 155 degC, 2-Pin THD, RoHS, Bulk"                               
+F2-C2      VY2102M29Y5US6TV7    TopLayer FP-VY2102M29Y5US6TV7-MFG  2560.000      3775.000      0        "VY2102M29Y5US6TV7 Cap Ceramic Suppression X1/Y2 0.001uF 440VAC/300VAC Y5U 20% (7.5 X 5mm) Radial 7.5mm 125C T/R" 
+F2-C2*     VY2102M29Y5US6TV7    TopLayer FP-VY2102M29Y5US6TV7-MFG  3170.000      3180.000      90       "VY2102M29Y5US6TV7 Cap Ceramic Suppression X1/Y2 0.001uF 440VAC/300VAC Y5U 20% (7.5 X 5mm) Radial 7.5mm 125C T/R" 
+F2-C1      VY2102M29Y5US6TV7    TopLayer FP-VY2102M29Y5US6TV7-MFG  2585.000      2055.000      0        "VY2102M29Y5US6TV7 Cap Ceramic Suppression X1/Y2 0.001uF 440VAC/300VAC Y5U 20% (7.5 X 5mm) Radial 7.5mm 125C T/R" 
+F2-C1*     VY2102M29Y5US6TV7    TopLayer FP-VY2102M29Y5US6TV7-MFG  3300.000      2457.362      270      "VY2102M29Y5US6TV7 Cap Ceramic Suppression X1/Y2 0.001uF 440VAC/300VAC Y5U 20% (7.5 X 5mm) Radial 7.5mm 125C T/R" 
+F1-RG      MFR-25FBF52-2K21     TopLayer RESA60-630X240            2110.000      2822.835      270      "Axial Resistor, 2.21 KOhm, +/- 1%, 0.25 W, -55 to 155 degC, 2-Pin THD, RoHS, Bulk"                               
+F1-R2*     MFR-25FBF52-2K21     TopLayer RESA60-630X240            1900.000      2820.000      90       "Axial Resistor, 2.21 KOhm, +/- 1%, 0.25 W, -55 to 155 degC, 2-Pin THD, RoHS, Bulk"                               
+F1-R1      MFR-25FBF52-2K21     TopLayer RESA60-630X240            2020.000      3585.000      180      "Axial Resistor, 2.21 KOhm, +/- 1%, 0.25 W, -55 to 155 degC, 2-Pin THD, RoHS, Bulk"                               
+F1-R1*     MFR-25FBF52-2K21     TopLayer RESA60-630X240            1240.000      2735.000      0        "Axial Resistor, 2.21 KOhm, +/- 1%, 0.25 W, -55 to 155 degC, 2-Pin THD, RoHS, Bulk"                               
+F1-C2      VY1102M35Y5UQ6TV0    TopLayer FP-VY1102M35Y5UQ6TV0-MFG  1510.000      3975.000      0        "CAP CER 1000PF 760VAC Y5U RADIAL"                                                                                
+F1-C2*     VY1102M35Y5UQ6TV0    TopLayer FP-VY1102M35Y5UQ6TV0-MFG  1370.000      2165.000      0        "CAP CER 1000PF 760VAC Y5U RADIAL"                                                                                
+F1-C1      VY1102M35Y5UQ6TV0    TopLayer FP-VY1102M35Y5UQ6TV0-MFG  1150.000      3230.000      90       "CAP CER 1000PF 760VAC Y5U RADIAL"                                                                                
+F1-C1*     VY1102M35Y5UQ6TV0    TopLayer FP-VY1102M35Y5UQ6TV0-MFG  1620.000      2650.000      90       "CAP CER 1000PF 760VAC Y5U RADIAL"                                                                                
