@@ -1,0 +1,25 @@
+Altium Designer Pick and Place Locations
+D:\University\Semester 3\EN2091\PCB_Project\PCB_Project_1\Project Outputs for PCB_Project_1\Pick Place for PCB1.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       27/11/25
+Time:       15:22
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator Comment          Layer    Footprint                 Center-X(mil) Center-Y(mil) Rotation Description                                                                                                       
+U1         NE5532P          TopLayer P0008A                    3145.000      4075.000      90       "Dual Low-Noise High-Speed Audio Operational Amplifier, 10 to 30 V, 0 to 70 degC, 8-pin DIP (P8), Pb-Free (RoHS)" 
+PA-VR1     MFR-25FBF52-2K21 TopLayer RESA60-630X240            3090.000      3420.000      270      "Axial Resistor, 2.21 KOhm, +/- 1%, 0.25 W, -55 to 155 degC, 2-Pin THD, RoHS, Bulk"                               
+PA-R3      100k             TopLayer RESA60-630X240            1240.000      3525.000      270      "Axial Resistor, 100 KOhm, +/- 1%, 0.25 W, -55 to 155 degC, 2-Pin THD, RoHS, Bulk"                                
+PA-R2      100k             TopLayer RESA60-630X240            2560.000      3375.000      90       "Axial Resistor, 100 KOhm, +/- 1%, 0.25 W, -55 to 155 degC, 2-Pin THD, RoHS, Bulk"                                
+PA-R1      MFR-25FBF52-2K21 TopLayer RESA60-630X240            2590.000      4095.000      270      "Axial Resistor, 2.21 KOhm, +/- 1%, 0.25 W, -55 to 155 degC, 2-Pin THD, RoHS, Bulk"                               
+PA-C4      ECA1HM100        TopLayer CAPPR55-200-1100X500X1200 2165.630      3635.000      180      "Aluminum Electrolytic Capacitor, 10 uF, +/- 20%, 50 V, -40 to 85 degC, 2-Pin THD, RoHS, Bulk"                    
+PA-C3      ECA-1HHG010      TopLayer CAPPR55-200-1100X500X1200 1605.000      3985.000      270      "Aluminum Electrolytic Capacitor, 1 uF, +/- 20%, 50 V, -55 to 105 degC, 2-Pin THD, RoHS, Bulk"                    
+PA-C2      ECA1HM100        TopLayer CAPPR55-200-1100X500X1200 1240.000      3965.630      90       "Aluminum Electrolytic Capacitor, 10 uF, +/- 20%, 50 V, -40 to 85 degC, 2-Pin THD, RoHS, Bulk"                    
+PA-C1      100n             TopLayer FP-VY2102M29Y5US6TV7-MFG  2120.000      4145.000      180      "VY2102M29Y5US6TV7 Cap Ceramic Suppression X1/Y2 0.001uF 440VAC/300VAC Y5U 20% (7.5 X 5mm) Radial 7.5mm 125C T/R" 
+P2         1803277          TopLayer PHOE-1803277_V            1730.000      3360.000      180      "Male Header, Pitch 3.81 mm, 1 x 2 Position, Height 7.25 mm, Tail Length 3.4 mm, RoHS, Bulk"                      
+P1         B3P-VH(LF)(SN)   TopLayer JST-B3P-VH(LF)(SN)-3_V    2485.905      4630.000      0        "Male Header, Pitch 3.96 mm, 1 x 3 Position, Height 10.9 mm, Tail Length 3.7 mm, -25 to 85 degC, RoHS, Bulk"      
+J1         35RAPC4BH3       TopLayer SWITCHCRAFT_35RAPC4BH3    1288.583      4528.937      0        "PC horizontal mount Jack stereo threaded bushing 3.5MM, 35 Series"                                               

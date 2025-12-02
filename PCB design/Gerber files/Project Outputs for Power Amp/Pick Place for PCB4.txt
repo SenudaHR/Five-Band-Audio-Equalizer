@@ -1,0 +1,27 @@
+Altium Designer Pick and Place Locations
+D:\University\Semester 3\EN2091\PCB_Project\Power Amp\Project Outputs for Power Amp\Pick Place for PCB4.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       27/11/25
+Time:       15:23
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator Comment            Layer    Footprint                 Center-X(mil) Center-Y(mil) Rotation Description                                                                                                       
+VR-O1      3852A-282-103AL    TopLayer BOUR-3852A-282-103AL-3_V  1725.000      1270.000      0        "Diameter Panel Control, 10 KOhm, +/- 10%, 2 W, -1 to 125 degC, 3-Pin THD, RoHS, Bulk"                            
+U1         NE5532P            TopLayer P0008A                    1795.000      1930.000      180      "Dual Low-Noise High-Speed Audio Operational Amplifier, 10 to 30 V, 0 to 70 degC, 8-pin DIP (P8), Pb-Free (RoHS)" 
+PW_C1      860240478010       TopLayer WCAP-AT1H_D13H25          3795.000      2870.000      90       "860240478010 WCAP-AT1H Aluminum Electrolytic Capacitors"                                                         
+PW-RG1     MFR-25FBF52-2K21   TopLayer RESA60-630X240            2345.000      2490.000      180      "Axial Resistor, 2.21 KOhm, +/- 1%, 0.25 W, -55 to 155 degC, 2-Pin THD, RoHS, Bulk"                               
+PW-R3      AC01000001000JA100 TopLayer RES_AC01_VIS              3045.000      2433.500      90       "VISHAY AC01000001000JA100 Through Hole Resistor, 100 ohm, Axial Leaded, 1 W, 5%, AC Series"                      
+PW-R2      MFR-25FBF52-2K21   TopLayer RESA60-630X240            2155.000      2255.000      180      "Axial Resistor, 2.21 KOhm, +/- 1%, 0.25 W, -55 to 155 degC, 2-Pin THD, RoHS, Bulk"                               
+PW-R1      MFR-25FBF52-2K21   TopLayer RESA60-630X240            1445.000      2275.000      180      "Axial Resistor, 2.21 KOhm, +/- 1%, 0.25 W, -55 to 155 degC, 2-Pin THD, RoHS, Bulk"                               
+PW-CG1     ECA1HM100          TopLayer CAPPR55-200-1100X500X1200 2565.000      2769.370      90       "Aluminum Electrolytic Capacitor, 10 uF, +/- 20%, 50 V, -40 to 85 degC, 2-Pin THD, RoHS, Bulk"                    
+PW-C2      VY2102M29Y5US6TV7  TopLayer FP-VY2102M29Y5US6TV7-MFG  2640.000      1535.000      90       "VY2102M29Y5US6TV7 Cap Ceramic Suppression X1/Y2 0.001uF 440VAC/300VAC Y5U 20% (7.5 X 5mm) Radial 7.5mm 125C T/R" 
+PowAmp     LM386N-1/NOPB      TopLayer P0008A                    2125.000      3005.000      90       "Low Voltage Audio Power Amplifier, 8-pin MDIP, Pb-Free"                                                          
+P1         B3P-VH(LF)(SN)     TopLayer JST-B3P-VH(LF)(SN)-3_V    1395.000      2750.000      180      "Male Header, Pitch 3.96 mm, 1 x 3 Position, Height 10.9 mm, Tail Length 3.7 mm, -25 to 85 degC, RoHS, Bulk"      
+J2         35RAPC4BH3         TopLayer SWITCHCRAFT_35RAPC4BH3    3891.417      1481.063      180      "PC horizontal mount Jack stereo threaded bushing 3.5MM, 35 Series"                                               
+J1         TMM-102-03-F-S     TopLayer FP-TMM-102-03-F-S-MFG     3795.000      2045.630      270      "CONN HEADER VERT 2POS 2MM"                                                                                       
+In         TMM-102-03-F-S     TopLayer FP-TMM-102-03-F-S-MFG     1230.000      2025.630      90       "CONN HEADER VERT 2POS 2MM"                                                                                       
