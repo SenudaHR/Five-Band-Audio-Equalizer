@@ -51,7 +51,7 @@ This project implements a **5-band analog audio equalizer** using operational am
 
 ## Schematics
 
-You can find the circuit diagram, filter specifications, and layout suggestions [PCB Design].
+You can find the circuit diagram, filter specifications, and layout suggestions [`PCB design`].
 
 ---
 
