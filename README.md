@@ -7,43 +7,102 @@ This project implements a **5-band analog audio equalizer** using operational am
 
 ---
 
-## 📐 Specifications
+## Features
 
-- ✅ **Five Adjustable Frequency Bands**
-  - **20 Hz – 300 Hz** (Bass)
-  - **300 Hz – 1 kHz** (Low Midrange)
-  - **1 kHz – 4 kHz** (Midrange)
-  - **4 kHz – 10 kHz** (Upper Midrange)
-  - **10 kHz – 20 kHz** (Treble)
-
-- ✅ **Analog Electronics Implementation**
-  - Transistors and Operational Amplifiers (Op-Amps)
-  - Active band-pass filters per frequency range
-
-- ✅ **Features**
-  - Independent gain control for each frequency band  
-  - Protection against **signal saturation/clipping**  
-  - **Audio level indicators** for visual feedback per band  
-  - Input interface for external audio devices  
-  - Housed in a robust and aesthetic **enclosure**
+- **Five Frequency Bands:** Custom shaping for Bass, Low-Mid, Mid, High-Mid, and Treble ranges.
+- **Analog Signal Path:** All audio processing is analog for true fidelity.
+- **Visual Level Metering:** LM3915-based LED VU meter for monitoring output.
+- **High-Quality Components:** Uses NE5532 op-amps for low noise and high slew rate.
 
 ---
 
+## System Overview
 
-## ⚙️ Implementation Details
-- **Band Separation**: Achieved using band-pass filter circuits designed with Op-Amps.  
-- **Gain Adjustment**: Each band has a variable resistor (potentiometer) for tuning gain.  
-- **Signal Integrity**: Additional circuitry ensures no unwanted distortion or saturation.  
-- **Indicators**: LED or VU-meter style displays represent the amplitude of each band.  
-- **Enclosure**: Custom housing ensures durability and usability.  
+- **Band 1:** Sallen-Key unity-gain low band
+- **Bands 2–5:** Cascaded MFB band-pass filter stages
+- **Amplification:** NE5532 op-amps in all stages
+- **Level Display:** LM3915 IC driving a 10-segment LED bar graph
+
+### Block Diagram
+
+```
+[Audio In] --> [Sallen-Key Low Band Filter] --> [MFB Band 2] --> [MFB Band 3] --> [MFB Band 4] --> [MFB Band 5] --> [Summing Amp] --> [Audio Out]
+                                                  |
+                                            [LM3915 LED Display]
+```
 
 ---
 
-## 🚀 Usage
-1. Connect an **audio input** (phone, laptop, player, etc.) to the input jack.  
-2. Adjust the **gain knobs** for each of the 5 bands.  
-3. Observe **band level indicators** to monitor output per frequency range.  
-4. The processed signal is available at the **output jack** for speakers/amplifiers.  
+## Bill of Materials (BOM)
+
+| Component     | Quantity | Notes                                 |
+|---------------|----------|---------------------------------------|
+| NE5532 Op-Amp | 5        | Main filter & amplifier stages        |
+| LM3915        | 1        | LED VU meter                         |
+| Resistors     | Varied   | See schematic                        |
+| Capacitors    | Varied   | See schematic                        |
+| Potentiometers| 5        | Band gain controls                    |
+| LEDs          | 10       | Output display                        |
+| PCB/Perfboard | 1        | For circuit assembly                  |
+| Audio Jacks   | 2        | Input/Output                          |
+| Power Supply  | 1        | ±12V or as required by op-amps        |
 
 ---
 
+## Schematics
+
+See [`schematic.pdf`](schematic.pdf) or [`schematic.png`](schematic.png) (if present).
+You can find the circuit diagram, filter specifications, and layout suggestions here.
+
+---
+
+## Assembly Instructions
+
+1. Solder the components to a PCB or perfboard as per the schematic.
+2. Connect potentiometers for band gain adjustment.
+3. Wire the LM3915 and LED array for output level monitoring.
+4. Connect audio input and output jacks.
+5. Double-check all connections for shorts and polarity.
+6. Power up and test the circuit with a known audio source.
+
+---
+
+## Usage
+
+- Adjust each potentiometer to boost/cut its associated frequency band.
+- Monitor the output signal level using the LED display.
+- Fine-tune filter frequencies and Q-factors by changing resistor/cap values (see schematic notes).
+
+---
+
+## Troubleshooting
+
+- **No Output:** Check op-amp power pins, input/output jacks, and signal traces.
+- **Distorted Sound:** Ensure proper supply voltage and correct filter component values.
+- **LED Meter Not Working:** Verify LM3915 wiring and LED polarity.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See [`LICENSE`](LICENSE) for details.
+
+---
+
+## Contributing
+
+Pull requests and suggestions are welcome! If you identify issues or want improvements, please open an issue or submit a PR.
+
+---
+
+## Author & Contact
+
+Made by [SenudaHR](https://github.com/SenudaHR)  
+For questions, contact via GitHub or open an issue.
+
+---
+
+## References
+
+- Data Sheets: [NE5532](https://www.ti.com/lit/ds/symlink/ne5532.pdf) | [LM3915](https://www.ti.com/lit/ds/symlink/lm3915.pdf)
+- Audio Equalizer theory: [Wikipedia](https://en.wikipedia.org/wiki/Equalization_(audio))
