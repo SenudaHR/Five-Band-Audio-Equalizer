@@ -77,11 +77,6 @@ You can find the circuit diagram, filter specifications, and layout suggestions 
 - **Distorted Sound:** Ensure proper supply voltage and correct filter component values.
 - **LED Meter Not Working:** Verify LM3915 wiring and LED polarity.
 
----
-
-## License
-
-This project is licensed under the MIT License. See [`LICENSE`](LICENSE) for details.
 
 ---
 
