@@ -38,11 +38,11 @@ This project implements a **5-band analog audio equalizer** using operational am
 | Component     | Quantity | Notes                                 |
 |---------------|----------|---------------------------------------|
 | NE5532 Op-Amp | Varied   | Main filter & amplifier stages        |
-| LM3915        | 4        | LED VU meter                         |
+| LM3915        | 5        | LED VU meter                         |
 | Resistors     | Varied   | See schematic                        |
 | Capacitors    | Varied   | See schematic                        |
 | Potentiometers| 6        | Band gain controls                    |
-| LED Bars      | 4        | Output display                        |
+| LED Bars      | 5        | Output display                        |
 | PCB/Perfboard | 4        | For circuit assembly                  |
 | Audio Jacks   | 2        | Input/Output                          |
 | Power Supply  | 1        | ±12V or as required by op-amps        |
